@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#000000  ">
+
+    <TextView
+        android:id="@+id/lbl_your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#F81308"
+        android:textStyle="bold"
+        android:text="This is a project not the actual database of VSSUT.
+It is for your REFERENCE NOT for ACTUAL Purpose!!!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F78D06"
+        android:gravity="center"
+        android:text="Developer: SSL"
+        android:textColor="#0697F7"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

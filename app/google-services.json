@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22382752631",
+    "firebase_url": "https://prajwalit2-d9df2.firebaseio.com",
+    "project_id": "prajwalit2-d9df2",
+    "storage_bucket": "prajwalit2-d9df2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22382752631:android:1204233396ffede4",
+        "android_client_info": {
+          "package_name": "com.example.austine.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22382752631-j4ot6a7dcsi6umit2vljpgsc9rf500h1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.austine.login",
+            "certificate_hash": "ea724ccbdc8384e76e3e21871e2f2ac48e61536c"
+          }
+        },
+        {
+          "client_id": "22382752631-76d7fj094mnrjf9549k1l6dqot936dmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBREMLjNci1ARUy4p_5MfnG3QDE0b6guaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22382752631-76d7fj094mnrjf9549k1l6dqot936dmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

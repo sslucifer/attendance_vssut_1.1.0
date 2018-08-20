@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/e"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@color/colorPrimaryDark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:text="SIGN UP PAGE"
+                android:textSize="30dp"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/cardview_shadow_start_color"
+                android:drawableLeft="@drawable/signup_icon"
+                android:hint="Email ID"
+                android:paddingLeft="4dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword"
+                android:background="@color/cardview_shadow_start_color"
+                android:hint="Password"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:paddingLeft="4dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_bg2"
+                android:text="Sign Up" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
